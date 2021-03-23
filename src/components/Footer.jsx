@@ -4,7 +4,7 @@ export default function Footer(props) {
   // const { className } = props;
   return (
     <Row
-      className='fixed-bottom bg-dark text-white justify-content-center'
+      className='bg-dark text-white justify-content-center mx-0'
       // className={className}
     >
       <Col>shy</Col>

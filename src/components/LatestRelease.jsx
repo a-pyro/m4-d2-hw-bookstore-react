@@ -14,9 +14,21 @@ import {
 } from 'react-bootstrap';
 
 export default class LatestRelease extends Component {
+  state = {
+    categoryChosen: null,
+  };
   render() {
     return (
       <Container fluid>
+        <Row className='justify-content-center my-3'>
+          <ButtonGroup aria-label='Basic example'>
+            <Button variant='secondary'>Fantasy</Button>
+            <Button variant='secondary'>History</Button>
+            <Button variant='secondary'>Horror</Button>
+            <Button variant='secondary'>Romance</Button>
+            <Button variant='secondary'>Scifi</Button>
+          </ButtonGroup>
+        </Row>
         <Row>
           {fantasy.map(({ asin, title, img, price, category }) => (
             <Col md={4} lg={3} key={asin} className='mb-3'>

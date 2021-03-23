@@ -9,10 +9,10 @@ function App() {
   return (
     <div className='App'>
       <MyNav title='BookStore' />
-      <Footer />
       {/* <Footer className={'fixed-bottom'} /> */}
       <Wellcome />
       <LatestRelease />
+      <Footer />
     </div>
   );
 }
