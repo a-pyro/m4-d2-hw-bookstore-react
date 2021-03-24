@@ -17,6 +17,7 @@ export default class LatestRelease extends Component {
   state = {
     categoryChosen: [...fantasy],
   };
+
   render() {
     return (
       <Container fluid>

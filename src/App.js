@@ -8,7 +8,7 @@ import LatestRelease from './components/LatestRelease';
 function App() {
   return (
     <div className='App'>
-      <MyNav title='BookStore' />
+      <MyNav title='BookStore' color='danger' weight='bold' />
       {/* <Footer className={'fixed-bottom'} /> */}
       <Wellcome />
       <LatestRelease />
